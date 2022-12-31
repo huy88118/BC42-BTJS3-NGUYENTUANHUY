@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Bài tập JSb4</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      <!-- Bài tập 1 -->
+<div class="container">
+    <div class="row">
+     
+      <div class="bt1 col-sm-6 mx-auto ">
+        <h1>Bài tập 1:</h1>
+        <h2 class="bg-danger text-white text-center ">Xuất 3 số theo thứ tự tăng dần</h2>
+      <div class="bt-1  d-flex">
+        <input id="number1" placeholder="Nhập số thứ 1" type="number" >
+      <input id="number2" placeholder="Nhập số thứ 2" type="number" >
+      <input id="number3" placeholder="Nhập số thứ 3" type="number" >
+      
+      </div>
+      <button id="sapxep" class="btn btn-danger text-white">Sắp xếp</button>
+      <div style="display: none;" id="ketqua1" class="text-center">
+        <!-- Hiển thị kết quả -->
+        <p id="ketquabai1"></p>
+    </div>
+      </div>
+      
+
+
+    </div>
+</div>
+<br>
+<br>
+<hr>
+
+<!-- Bài tập 2 -->
+<div class="container">
+  <div class="row">
+    <div class="bt2 col-sm-6 mx-auto">
+<h1>Bài tập 2</h1>
+<h2 class="bg-danger text-white text-center">Chương trình chào hỏi </h2>
+<div class="bt-2 ">
+ 
+    <select class="" id="familyName">
+
+    <option value="x">Chọn thành viên</option>
+    <option value="b">Bố</option>
+    <option value="m">Mẹ</option>
+    <option value="a">Anh trai</option>
+    <option value="e">Em gái</option>
+   
+    </select>
+<button onclick="bai2()" id="guiloichao" class="btn btn-danger text-white">Gửi lời chào</button>
+<div style="display: none;" id="ketqua2" class="text-center">
+  <!-- Hiển thị kết quả -->
+  <p id="ketquabai2"></p>
+</div>
+</div>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<hr>
+<br>
+
+<!-- Bài tập 3 -->
+<div class="container">
+  <div class="row">
+    <div class="bt3 col-sm-6 mx-auto">
+      <h1>Bài tập 3</h1>
+      <h2 class="bg-danger text-white text-center">🧮 Đếm số chẵn lẻ</h2>
+<div class="bt3 d-flex text-center">
+  <input id="number_1" type="number" placeholder="Nhập số thứ 1">
+  <input id="number_2" type="number" placeholder="Nhập số thứ 2">
+  <input id="number_3" type="number" placeholder="Nhập số thứ 3">
+
+</div>
+<br>
+<button id="dem" class="btn btn-danger text-white">Đếm</button>
+<div style="display: none;" id="ketqua3" class="text-center">
+  <!-- Hiển thị kết quả -->
+  <p id="ketquabai3"></p>
+</div>
+
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<hr>
+<br>
+<br>
+<!--Bài 4  -->
+<div class="container">
+  <div class="row">
+    <div class="bt4 col-sm-6 mx-auto" >
+      <h1>Bài tập 4</h1>
+      <h2 class="bg-danger text-white text-center">🔮 Đoán hình tam giác</h2>
+      <div class="text-center d-flex" >
+        <input id="canh1" type="number" placeholder="Nhập độ dài cạnh 1">
+        <input id="canh2" type="number" placeholder="Nhập độ dài cạnh 2">
+        <input id="canh3" type="number" placeholder="Nhập độ dài cạnh 3">
+       </div>
+       <br>
+       <button id="dudoan" class="btn btn-danger text-white">Dự đoán</button>
+       <div style="display: none;" id="ketqua4" class="text-center">
+        <!-- Hiển thị kết quả -->
+        <p id="ketquabai4"></p>
+      </div>
+    </div>
+
+   
+    
+  </div>
+</div> 
+<br>
+<br>
+<hr>
+<br>
+<br>
+<!-- Bài tập 5 -->
+<div class="container">
+  <div class="row">
+    <div class="bt5 col-sm-6 mx-auto" >
+      <h1>Bài tập 5</h1>
+      <h2 class="bg-danger text-white text-center">📅 Tính ngày tháng năm</h2>
+<div>
+  <input id="today" placeholder="dd/mm/yyyy" type="date">
+</div>
+<br>
+<div>
+  <button id="ngayhomqua" class="btn btn-danger text-white">Ngày hôm qua</button>
+  <button id="ngaymai" class="btn btn-danger text-white">Ngày mai</button>
+  <div style="display: none;" id="ketqua5" class="text-center">
+    <!-- Hiển thị kết quả -->
+    <p id="ketquabai5"></p>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<hr>
+<br>
+<br>
+<!-- Bài 6 -->
+<div class="container">
+  <div class="row">
+    <div class="bt6 col-sm-6 mx-auto">
+      <h1>Bài tập 6</h1>
+      <h2 class="bg-danger text-white text-center">🗓️ Tính ngày</h2>
+      <div>
+        <input id="thang" type="number" placeholder="Nhập tháng">
+        <input id="nam" type="number" placeholder="Nhập năm">
+        <button id="tinhngay" class="btn btn-danger">Tính Ngày</button>
+      </div>
+      <div style="display: none;" id="ketqua6" class="text-center">
+        <!-- Hiển thị kết quả -->
+        <p id="ketquabai6"></p>
+      </div>
+    </div>
+  
+  </div>
+</div>
+<br>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <!-- Bài 7 -->
+
+<br><div class="container7 mx-5">
+  <div class="row">
+    <div class="col-sm-6 mx-auto">
+     <h1>Bài tập 7</h1>
+     <h2 class="bg-danger text-white text-center">🔢 Đọc số</h2>
+      <input
+class="text-center" type="number" id="numberEl" placeholder="nhập số"/>
+    </div>
+    <div class="text-center col-sm-12 mt-auto">
+      <button class="btn btn-danger" id="docso">đọc số</button>
+    </div>
+    <div
+      style="display: none"
+      id="ketqua7"
+      class="text-center col-sm-12 mx-auto"
+    >
+      <p id="ketquabai7"></p>
+    </div>
+  </div>
+</div>
+<br>
+<hr>
+<br>
+<br>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6 mx-auto">
+      <h1>Bài tập 8</h1>
+      <h2 class="bg-danger text-white text-center">🗺️ Tìm sinh viên xa trường nhất</h2>
+      <label>Sinh viên 1</label>
+      <div class="d-flex">
+        <input id="ten1" type="text" placeholder="Nhập tên">
+        <input id="x1" type="number" placeholder="Nhập tọa độ x">
+        <input id="y1" type="number" placeholder="Nhập tọa độ y">
+      </div>
+      <label>Sinh viên 2</label>
+      <div class="d-flex">
+        <input id="ten2" type="text" placeholder="Nhập tên">
+        <input id="x2" type="number" placeholder="Nhập tọa độ x">
+        <input id="y2" type="number" placeholder="Nhập tọa độ y">
+      </div>
+      <label>Sinh viên 3</label>
+      <div class="d-flex">
+        <input id="ten3" type="text" placeholder="Nhập tên">
+        <input id="x3" type="number" placeholder="Nhập tọa độ x">
+        <input id="y3" type="number" placeholder="Nhập tọa độ y">
+      </div>
+      <label>Trường học</label>
+      <div>
+        <input id="x4" type="number" placeholder="Nhập tọa độ x">
+        <input id="y4" type="number" placeholder="Nhập tọa độ y">
+
+      </div>
+      <br>
+      <button id="tim" class="btn btn-danger">Tìm</button>
+      <div style="display: none;" id="ketqua8" class="text-center">
+        <!-- Hiển thị kết quả -->
+        <p id="ketquabai8"></p>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<hr>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
